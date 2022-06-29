@@ -1,4 +1,4 @@
-package com.example.clashroyale;
+package Controller;
 
 import javafx.fxml.FXML;
 import javafx.geometry.Insets;

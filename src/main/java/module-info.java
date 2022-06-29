@@ -3,6 +3,6 @@ module com.example.clashroyale {
     requires javafx.fxml;
 
 
-    opens com.example.clashroyale to javafx.fxml;
-    exports com.example.clashroyale;
+    opens Controller to javafx.fxml;
+    exports Controller;
 }

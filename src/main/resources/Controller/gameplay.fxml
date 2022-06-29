@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="game" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="845.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControllerGamePlay">
+   <children>
+      <AnchorPane fx:id="background" prefHeight="620.0" prefWidth="420.0">
+         <children>
+            <HBox prefHeight="20.0" prefWidth="420.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" stroke="BLACK" strokeType="INSIDE" width="420.0" />
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="37.0" layoutX="193.0" layoutY="563.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+      <Rectangle fx:id="tower_enemy_main" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="37.0" layoutX="193.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="37.0" layoutX="316.0" layoutY="506.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="37.0" layoutX="70.0" layoutY="506.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+      <Rectangle fx:id="tower_enemy_right" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="37.0" layoutX="316.0" layoutY="77.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+      <Rectangle fx:id="tower_main_left" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="37.0" layoutX="70.0" layoutY="77.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="393.0" layoutX="80.0" layoutY="114.0" stroke="BLACK" strokeType="INSIDE" width="13.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="393.0" layoutX="326.0" layoutY="114.0" stroke="BLACK" strokeType="INSIDE" width="13.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="42.0" layoutX="326.0" layoutY="542.0" stroke="BLACK" strokeType="INSIDE" width="13.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="13.0" layoutX="225.0" layoutY="575.0" stroke="BLACK" strokeType="INSIDE" width="113.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="42.0" layoutX="80.0" layoutY="542.0" stroke="BLACK" strokeType="INSIDE" width="13.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="13.0" layoutX="80.0" layoutY="575.0" stroke="BLACK" strokeType="INSIDE" width="113.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="13.0" layoutX="225.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" width="113.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="42.0" layoutX="326.0" layoutY="36.0" stroke="BLACK" strokeType="INSIDE" width="13.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="42.0" layoutX="80.0" layoutY="36.0" stroke="BLACK" strokeType="INSIDE" width="13.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="13.0" layoutX="80.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" width="113.0" />
+      <AnchorPane fx:id="menue" layoutY="615.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="230.0" prefWidth="420.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="37.0" layoutX="359.0" layoutY="669.0" stroke="BLACK" strokeType="INSIDE" width="43.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="42.0" layoutX="364.0" layoutY="720.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+      <AnchorPane fx:id="cards_background" layoutX="35.0" layoutY="668.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="98.0" prefWidth="300.0" />
+      <Label layoutX="366.0" layoutY="765.0" text="Next:" />
+      <HBox fx:id="cards_back" alignment="CENTER" layoutX="38.0" layoutY="688.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="78.0" prefWidth="294.0" spacing="20.0">
+         <children>
+            <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="67.0" prefWidth="43.0">
+               <children>
+                  <Circle fill="DODGERBLUE" layoutX="22.0" layoutY="53.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+               </children>
+            </Pane>
+            <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="67.0" prefWidth="43.0">
+               <children>
+                  <Circle fill="DODGERBLUE" layoutX="22.0" layoutY="53.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+               </children>
+            </Pane>
+            <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="67.0" prefWidth="43.0">
+               <children>
+                  <Circle fill="DODGERBLUE" layoutX="22.0" layoutY="53.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+               </children>
+            </Pane>
+            <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="67.0" prefWidth="43.0">
+               <children>
+                  <Circle fill="DODGERBLUE" layoutX="22.0" layoutY="53.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+      <Pane layoutX="576.0" layoutY="540.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="78.0" prefWidth="56.0">
+         <children>
+            <Circle fill="DODGERBLUE" layoutX="28.0" layoutY="64.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </Pane>
+      <ProgressBar layoutX="35.0" layoutY="773.0" prefHeight="18.0" prefWidth="300.0" progress="1.0" />
+   </children>
+</AnchorPane>
